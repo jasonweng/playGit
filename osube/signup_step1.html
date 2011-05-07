@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" /> 
+  <title>osube-iphone</title>
+  <script type="text/javascript" src="javascripts/zepto.min.js"></script>
+  <script type="text/javascript" src="javascripts/application.js"></script>
+  <link rel="stylesheet" href="stylesheets/master.css"  media="screen,mobile" type="text/css" />
+</head>
+<body>
+  <header>
+    <a href="#" class="btn_back" onclick="javascript:history.back(); return false;">Back</a>
+    Welcome
+    <a href="#" class="about">about</a>
+  </header>
+
+  <div id="mainContent">
+    <div class="newAccountStep1">
+      <h2 class='introTips'>This is your first time using Osube. Two simple steps to get started.</h2>
+      <h1 class="stepTitle">Step 1 - List your contact details</h1>
+      <h2 class='introTips'>When you share one of your Intros, you’ll be able to select which of these details you’d like to share:</h2>
+      <input type="text" placeholder="First name" />
+      <input type="text" placeholder="Last name" />
+      <input type="email" placeholder="Email address" required />
+      <input type="tel" placeholder="Mobile number"  />
+      <input type="url" placeholder="Website" />
+      <input type="text" placeholder="Twitter" />
+      <input type="text" placeholder="LinkedIn" />
+      <a href="#" class="btn02"><span>Add more</span></a>
+      <div class="normalBtnBg"><input type="submit" value="Done. Let’s go to Step 2" class="actionBtn newAccountStep1done" /></div>
+    </div>
+
+    <div class="newAccountStep2" style="display:none;">
+      <p>Page content here</p>
+      <div class="doneTips">Your account has been created</div>
+    </div>
+  </div>
+
+  <nav>
+    <a href="recently.html" class="recently current">Recently</a>
+    <a href="share.html" class="share">Share</a>
+    <a href="intros.html" class="intros">Intros</a>
+    <a href="setting.html" class="settings">Settings</a>
+  </nav>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" /> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <title>osube-iphone</title>
+  <script type="text/javascript" src="javascripts/zepto.min.js"></script>
+  <script type="text/javascript" src="javascripts/application.js"></script>
+  <link rel="stylesheet" href="stylesheets/master.css"  media="screen,mobile" type="text/css" />
+</head>
+<body>
+  <header>
+    <a href="#" class="btn_back" onclick="javascript:history.back(); return false;">Back</a>
+    Create a new account
+    <a href="#" class="about">about</a>
+  </header>
+
+  <div id="mainContent">
+    <input type="email" placeholder="Email address" required />
+    <input type="password" placeholder="Password" required />
+    <input type="password" placeholder="Confirm Password" required />
+    <div class="normalBtnBg"><input type="submit" value="Create" class="actionBtn"  onclick="location.href='signup_step1.html'; return false;" /></div>
+
+  </div>
+
+
+</body>
+</html>
